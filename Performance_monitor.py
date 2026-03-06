@@ -692,5 +692,10 @@ class LLMPerformanceTester:
             report_lines.append("## 系统资源使用")
             cpu_usage = [m.cpu_percent for m in system_metrics]
             memory_usage = [m.memory_percent for m in system_metrics]
-            
-            report_lines.append(f"平均CPU使用率: {statistics.mean(cpu_
+        
+        a = b + c
+
+        from test import func1,func2,func4
+
+        e = func1(a)
+        d = func2(a,b,c) 
