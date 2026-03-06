@@ -698,4 +698,7 @@ class LLMPerformanceTester:
         from test import func1,func2,func4
 
         e = func1(a)
-        d = func2(a,b,c) 
+        d = func2(a,b,c)
+
+        r = print("qweqeqweqweqweqweqweqwe")
+        g = r 
