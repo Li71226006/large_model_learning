@@ -293,6 +293,7 @@ async def structured_generate(request: Dict[str, Any]):
         raise HTTPException(status_code=503, detail="模型未初始化")
     
     prompt = request.get("prompt", "")
+    import time
     constraints = request.get("constraints", {})
     
     generation_params = {
