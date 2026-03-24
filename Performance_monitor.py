@@ -127,6 +127,7 @@ class SystemMonitor:
         if self.monitor_thread:
             self.monitor_thread.join(timeout=2)
         logger.info("停止系统监控")
+        logger.info("在干什么？")
         
     def _monitor_loop(self, interval: float):
         """监控循环"""
@@ -698,4 +699,4 @@ class LLMPerformanceTester:
         from test import func1,func2,func4
 
         e = func1(a)
-        d = func2(a,b,c) 
+        d = func2(a,b,c)
