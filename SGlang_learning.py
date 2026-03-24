@@ -88,6 +88,7 @@ class SGLangServer:
             trust_remote_code=True,
             disable_custom_all_reduce=False,  # 启用自定义all-reduce优化
         )
+        import os
         
         # 启动运行时端点
         self.runtime_endpoint = RuntimeEndpoint(self.engine)
