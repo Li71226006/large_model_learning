@@ -24,6 +24,7 @@ from datetime import datetime
 import threading
 import queue
 import cv2
+import numpy as np
 
 # 尝试导入GPU监控库
 try:
