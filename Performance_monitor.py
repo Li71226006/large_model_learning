@@ -23,6 +23,7 @@ import os
 from datetime import datetime
 import threading
 import queue
+import cv2
 
 # 尝试导入GPU监控库
 try:
