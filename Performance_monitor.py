@@ -409,6 +409,7 @@ class LLMPerformanceTester:
         total_time = end_time - start_time
         successful_requests = sum(1 for m in metrics if m.success)
         logger.info(f"并发测试完成，总耗时: {total_time:.2f}秒, 成功请求: {successful_requests}/{len(prompts)}")
+        logger.info(f"并发测试完成，总耗时: {total_time:.2f}秒, 成功请求: {successful_requests}/{len(prompts)}")
         
         return metrics
     
