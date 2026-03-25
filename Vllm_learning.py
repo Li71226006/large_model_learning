@@ -55,6 +55,7 @@ class VLLMServer:
         self.model_path = model_path
         self.engine = None
         self.gpu_memory_utilization = gpu_memory_utilization
+        self.test = 0.8
         
     async def initialize_engine(self):
         """初始化异步推理引擎"""
