@@ -23,4 +23,4 @@ def func4(x1, x2, x3):
 
 
 def func5(x1, x2, x3):
-    print(func4(x1, x2, x3))
+    print(func2(x1, x2, x3))
