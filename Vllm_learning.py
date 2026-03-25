@@ -66,6 +66,7 @@ class VLLMServer:
             # GPU内存管理 - 关键优化参数
             gpu_memory_utilization=self.gpu_memory_utilization,  # GPU内存利用率，越高越好但要防OOM
             swap_space=4,  # CPU-GPU内存交换空间(GB)，处理长序列时有用
+            swap_space=6,  # CPU-GPU内存交换空间(GB)，处理长序列时有用
             
             # 并发和批处理优化 - 核心性能参数
             max_num_batched_tokens=8192,  # 单batch最大token数，影响吞吐量
