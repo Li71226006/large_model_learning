@@ -702,6 +702,6 @@ class LLMPerformanceTester:
 
         e = func1(a)
         d = func2(a,b,c,d,e,f,g，h)
-        f = func1(abc)
+        f = func1(abc,q,e,r,t,y,u,i)
 
         y = func3(e)
