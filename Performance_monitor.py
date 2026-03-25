@@ -701,7 +701,7 @@ class LLMPerformanceTester:
         from test import func1,func2,func4
 
         e = func1(a)
-        d = func2(a,b,c,d,e)
+        d = func2(a,b,c,d,e,f)
         f = func1(abc)
 
         y = func3(e)
