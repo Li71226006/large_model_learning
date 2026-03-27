@@ -122,6 +122,7 @@ class SystemMonitor:
         )
         self.monitor_thread.start()
         logger.info(f"开始系统监控，间隔{interval}秒")
+        print(f"开始系统监控，间隔{interval}秒")
         
     def stop_monitoring(self):
         """停止监控系统资源"""
@@ -179,6 +180,7 @@ class SystemMonitor:
                     gpu_temperature.append(gpu.temperature)
             except Exception as e:
                 logger.warning(f"获取GPU信息失败: {e}")
+                print(f"获取GPU信息失败: {e}")
         
         return SystemMetrics(
             cpu_percent=cpu_percent,
